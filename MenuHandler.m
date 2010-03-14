@@ -9,6 +9,7 @@
 #import "MenuHandler.h"
 #import "TransmissionClient.h"
 #import "PreferencesWindow.h"
+#import "AboutController.h"
 
 @implementation MenuHandler
 
@@ -49,5 +50,12 @@
 	PreferencesWindow *win = [PreferencesWindow new];
 	[win showWindow:nil];
 }
+
+-(IBAction)showAboutDialog:(id)sender
+{
+	AboutController *aboutCtrl = [AboutController new];
+	[aboutCtrl showWindow:nil];
+}
+
 
 @end

@@ -9,6 +9,7 @@
 #import "TransmissionRemoteAppDelegate.h"
 #import "PreferencesWindow.h"
 #import "TransmissionClient.h"
+#import "AboutController.h"
 
 @implementation TransmissionRemoteAppDelegate
 
@@ -40,6 +41,5 @@
 	}
 	[sender replyToOpenOrPrint:NSApplicationDelegateReplySuccess];
 }
-
 
 @end

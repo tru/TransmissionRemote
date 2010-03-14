@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m */; };
+		61259B42114D395E0006143C /* AboutDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61259B41114D395E0006143C /* AboutDialog.xib */; };
+		61259B48114D3C870006143C /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61259B47114D3C870006143C /* AboutController.m */; };
 		612DF9F3114BDA9C0036B1CD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9E8114BDA9C0036B1CD /* NSObject+SBJSON.m */; };
 		612DF9F4114BDA9C0036B1CD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9EA114BDA9C0036B1CD /* NSString+SBJSON.m */; };
 		612DF9F5114BDA9C0036B1CD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9EC114BDA9C0036B1CD /* SBJSON.m */; };
@@ -37,6 +39,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		61259B41114D395E0006143C /* AboutDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutDialog.xib; sourceTree = "<group>"; };
+		61259B46114D3C870006143C /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		61259B47114D3C870006143C /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
 		612DF9E6114BDA9C0036B1CD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		612DF9E7114BDA9C0036B1CD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		612DF9E8114BDA9C0036B1CD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -89,6 +94,8 @@
 				61511383114CFACC00C2F6BB /* PreferencesWindow.m */,
 				256AC3D80F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m */,
+				61259B46114D3C870006143C /* AboutController.h */,
+				61259B47114D3C870006143C /* AboutController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -144,6 +151,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				61259B41114D395E0006143C /* AboutDialog.xib */,
 				61511385114CFAE200C2F6BB /* PreferencesWindow.xib */,
 				8D1107310486CEB800E47090 /* TransmissionRemote-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -238,6 +246,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				61511386114CFAE200C2F6BB /* PreferencesWindow.xib in Resources */,
+				61259B42114D395E0006143C /* AboutDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				615111DF114BE33B00C2F6BB /* TransmissionClient.m in Sources */,
 				6151122C114BF88B00C2F6BB /* TCURLConnection.m in Sources */,
 				61511384114CFACC00C2F6BB /* PreferencesWindow.m in Sources */,
+				61259B48114D3C870006143C /* AboutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

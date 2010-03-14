@@ -15,5 +15,6 @@
 
 -(IBAction)addTorrent:(id)sender;
 -(IBAction)showPreferences:(id)sender;
+-(IBAction)showAboutDialog:(id)sender;
 
 @end

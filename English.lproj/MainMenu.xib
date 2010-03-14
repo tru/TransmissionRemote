@@ -192,7 +192,7 @@
 							<string key="NSTitle">Torrents</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSMenuItem" id="1068033669">
+								<object class="NSMenuItem" id="377362148">
 									<reference key="NSMenu" ref="720053764"/>
 									<string key="NSTitle">Open and Add</string>
 									<string key="NSKeyEquiv">o</string>
@@ -242,14 +242,6 @@
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">orderFrontStandardAboutPanel:</string>
-						<reference key="source" ref="1021"/>
-						<reference key="destination" ref="238522557"/>
-					</object>
-					<int key="connectionID">142</int>
-				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">hide:</string>
@@ -302,7 +294,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">addTorrent:</string>
 						<reference key="source" ref="649796088"/>
-						<reference key="destination" ref="1068033669"/>
+						<reference key="destination" ref="377362148"/>
 					</object>
 					<int key="connectionID">534</int>
 				</object>
@@ -313,6 +305,14 @@
 						<reference key="destination" ref="609285721"/>
 					</object>
 					<int key="connectionID">535</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">showAboutDialog:</string>
+						<reference key="source" ref="649796088"/>
+						<reference key="destination" ref="238522557"/>
+					</object>
+					<int key="connectionID">536</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -376,7 +376,7 @@
 						<reference key="object" ref="720053764"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1068033669"/>
+							<reference ref="377362148"/>
 						</object>
 						<reference key="parent" ref="379814623"/>
 					</object>
@@ -498,7 +498,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">533</int>
-						<reference key="object" ref="1068033669"/>
+						<reference key="object" ref="377362148"/>
 						<reference key="parent" ref="720053764"/>
 					</object>
 				</object>
@@ -584,7 +584,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>MenuHandler</string>
-					<string>{{497, 746}, {320, 20}}</string>
+					<string>{{370, 484}, {320, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -596,7 +596,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{509, 563}, {278, 183}}</string>
+					<string>{{382, 301}, {278, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{23, 794}, {245, 183}}</string>
@@ -626,7 +626,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">535</int>
+			<int key="maxID">536</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -639,10 +639,12 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>addTorrent:</string>
+							<string>showAboutDialog:</string>
 							<string>showPreferences:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
