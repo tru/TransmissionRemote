@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m */; };
+		612DF9F3114BDA9C0036B1CD /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9E8114BDA9C0036B1CD /* NSObject+SBJSON.m */; };
+		612DF9F4114BDA9C0036B1CD /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9EA114BDA9C0036B1CD /* NSString+SBJSON.m */; };
+		612DF9F5114BDA9C0036B1CD /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9EC114BDA9C0036B1CD /* SBJSON.m */; };
+		612DF9F6114BDA9C0036B1CD /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9EE114BDA9C0036B1CD /* SBJsonBase.m */; };
+		612DF9F7114BDA9C0036B1CD /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9F0114BDA9C0036B1CD /* SBJsonParser.m */; };
+		612DF9F8114BDA9C0036B1CD /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9F2114BDA9C0036B1CD /* SBJsonWriter.m */; };
+		612DF9FD114BDAAA0036B1CD /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 612DF9FC114BDAAA0036B1CD /* NSDataAdditions.m */; };
+		615111DF114BE33B00C2F6BB /* TransmissionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 615111DE114BE33B00C2F6BB /* TransmissionClient.m */; };
+		6151122C114BF88B00C2F6BB /* TCURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6151122B114BF88B00C2F6BB /* TCURLConnection.m */; };
+		61511384114CFACC00C2F6BB /* PreferencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 61511383114CFACC00C2F6BB /* PreferencesWindow.m */; };
+		61511386114CFAE200C2F6BB /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61511385114CFAE200C2F6BB /* PreferencesWindow.xib */; };
+		61B5E7EA114BDBDE001FDC50 /* MenuHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B5E7E9114BDBDE001FDC50 /* MenuHandler.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmissionRemoteAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransmissionRemoteAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* TransmissionRemote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmissionRemote_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		612DF9E6114BDA9C0036B1CD /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		612DF9E7114BDA9C0036B1CD /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		612DF9E8114BDA9C0036B1CD /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		612DF9E9114BDA9C0036B1CD /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		612DF9EA114BDA9C0036B1CD /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		612DF9EB114BDA9C0036B1CD /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		612DF9EC114BDA9C0036B1CD /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		612DF9ED114BDA9C0036B1CD /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		612DF9EE114BDA9C0036B1CD /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		612DF9EF114BDA9C0036B1CD /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		612DF9F0114BDA9C0036B1CD /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		612DF9F1114BDA9C0036B1CD /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		612DF9F2114BDA9C0036B1CD /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		612DF9FB114BDAAA0036B1CD /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		612DF9FC114BDAAA0036B1CD /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		615111DD114BE33B00C2F6BB /* TransmissionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransmissionClient.h; sourceTree = "<group>"; };
+		615111DE114BE33B00C2F6BB /* TransmissionClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransmissionClient.m; sourceTree = "<group>"; };
+		6151122A114BF88B00C2F6BB /* TCURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCURLConnection.h; sourceTree = "<group>"; };
+		6151122B114BF88B00C2F6BB /* TCURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCURLConnection.m; sourceTree = "<group>"; };
+		61511382114CFACC00C2F6BB /* PreferencesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindow.h; sourceTree = "<group>"; };
+		61511383114CFACC00C2F6BB /* PreferencesWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindow.m; sourceTree = "<group>"; };
+		61511385114CFAE200C2F6BB /* PreferencesWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		61B5E7E8114BDBDE001FDC50 /* MenuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHandler.h; sourceTree = "<group>"; };
+		61B5E7E9114BDBDE001FDC50 /* MenuHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHandler.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TransmissionRemote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TransmissionRemote-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TransmissionRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransmissionRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				61259B31114D2CCF0006143C /* TransmissionClient */,
+				612DF9FB114BDAAA0036B1CD /* NSDataAdditions.h */,
+				612DF9FC114BDAAA0036B1CD /* NSDataAdditions.m */,
+				61B5E7E8114BDBDE001FDC50 /* MenuHandler.h */,
+				61B5E7E9114BDBDE001FDC50 /* MenuHandler.m */,
+				61511382114CFACC00C2F6BB /* PreferencesWindow.h */,
+				61511383114CFACC00C2F6BB /* PreferencesWindow.m */,
+				256AC3D80F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TransmissionRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TransmissionRemote */ = {
+			isa = PBXGroup;
+			children = (
+				612DF9E5114BDA9C0036B1CD /* JSON */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TransmissionRemote;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* TransmissionRemote_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61511385114CFAE200C2F6BB /* PreferencesWindow.xib */,
+				8D1107310486CEB800E47090 /* TransmissionRemote-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61259B31114D2CCF0006143C /* TransmissionClient */ = {
+			isa = PBXGroup;
+			children = (
+				6151122A114BF88B00C2F6BB /* TCURLConnection.h */,
+				6151122B114BF88B00C2F6BB /* TCURLConnection.m */,
+				615111DD114BE33B00C2F6BB /* TransmissionClient.h */,
+				615111DE114BE33B00C2F6BB /* TransmissionClient.m */,
+			);
+			name = TransmissionClient;
+			sourceTree = "<group>";
+		};
+		612DF9E5114BDA9C0036B1CD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				612DF9E6114BDA9C0036B1CD /* JSON.h */,
+				612DF9E7114BDA9C0036B1CD /* NSObject+SBJSON.h */,
+				612DF9E8114BDA9C0036B1CD /* NSObject+SBJSON.m */,
+				612DF9E9114BDA9C0036B1CD /* NSString+SBJSON.h */,
+				612DF9EA114BDA9C0036B1CD /* NSString+SBJSON.m */,
+				612DF9EB114BDA9C0036B1CD /* SBJSON.h */,
+				612DF9EC114BDA9C0036B1CD /* SBJSON.m */,
+				612DF9ED114BDA9C0036B1CD /* SBJsonBase.h */,
+				612DF9EE114BDA9C0036B1CD /* SBJsonBase.m */,
+				612DF9EF114BDA9C0036B1CD /* SBJsonParser.h */,
+				612DF9F0114BDA9C0036B1CD /* SBJsonParser.m */,
+				612DF9F1114BDA9C0036B1CD /* SBJsonWriter.h */,
+				612DF9F2114BDA9C0036B1CD /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TransmissionRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TransmissionRemote" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransmissionRemote;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TransmissionRemote;
+			productReference = 8D1107320486CEB800E47090 /* TransmissionRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TransmissionRemote" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TransmissionRemote */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TransmissionRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				61511386114CFAE200C2F6BB /* PreferencesWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* TransmissionRemoteAppDelegate.m in Sources */,
+				612DF9F3114BDA9C0036B1CD /* NSObject+SBJSON.m in Sources */,
+				612DF9F4114BDA9C0036B1CD /* NSString+SBJSON.m in Sources */,
+				612DF9F5114BDA9C0036B1CD /* SBJSON.m in Sources */,
+				612DF9F6114BDA9C0036B1CD /* SBJsonBase.m in Sources */,
+				612DF9F7114BDA9C0036B1CD /* SBJsonParser.m in Sources */,
+				612DF9F8114BDA9C0036B1CD /* SBJsonWriter.m in Sources */,
+				612DF9FD114BDAAA0036B1CD /* NSDataAdditions.m in Sources */,
+				61B5E7EA114BDBDE001FDC50 /* MenuHandler.m in Sources */,
+				615111DF114BE33B00C2F6BB /* TransmissionClient.m in Sources */,
+				6151122C114BF88B00C2F6BB /* TCURLConnection.m in Sources */,
+				61511384114CFACC00C2F6BB /* PreferencesWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TransmissionRemote_Prefix.pch;
+				INFOPLIST_FILE = "TransmissionRemote-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TransmissionRemote;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TransmissionRemote_Prefix.pch;
+				INFOPLIST_FILE = "TransmissionRemote-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TransmissionRemote;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TransmissionRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TransmissionRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
